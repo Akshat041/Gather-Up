@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-The **College Event Planner** is a web-based platform that allows college event organizers to **add, manage, and share event details** with students. It helps students stay updated on upcoming events, workshops, and activities happening in their college.
+The **GatherUp** is a web-based platform that allows college event organizers to **add, manage, and share event details** with students. It helps students stay updated on upcoming events, workshops, and activities happening in their college.
 
 ## **Features**
 
@@ -10,20 +10,18 @@ The **College Event Planner** is a web-based platform that allows college event 
 
 ✅ **Event Listings:** Students can browse upcoming events in an easy-to-navigate interface.
 
-✅ **Search & Filters:** Find events by category, date, or popularity.
-
 ✅ **User-Friendly Interface:** Simple and intuitive design for both organizers and attendees.
 
 ## **How It Works**
 
 1. **Event Organizers** can log in and add event details.
-2. **Students** can view events, search for specific ones, and mark them as interested.
+2. **Students** can view events, and mark them as interested.
 3. The platform helps first-year students discover events and integrate into campus life.
 
 ## **Tech Stack**
 
-- **Frontend:** HTML, CSS, JavaScript (React/Bootstrap)
-- **Hosting:** github pages
+- **Frontend:** HTML, CSS, JavaScript
+- **Hosting:** Github pages
 
 ## About Us
 
@@ -41,7 +39,7 @@ Want to improve the platform? Feel free to submit a pull request! 🚀
 - git clone `git@github.com:Akshat041/Gather-Up.git`
 **2-**Open `index.html` in your web browser
 
-## Future Improvement
+## Future Improvements
 
 ### **1. AI-Powered Features**
 
@@ -87,7 +85,7 @@ If you want to contribute code improvements or new features:
 5.  Push to your branch: git push origin feature/your-feature-name
 6.  Submit a pull request to the main branch.
 
-### General Guidelines
+### General Guidelines for contributors
 
 * Follow the existing code style.
 * Write clear and concise commit messages.
