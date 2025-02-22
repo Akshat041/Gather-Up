@@ -99,7 +99,7 @@ If you want to contribute code improvements or new features:
 This project was built with the help of the following resources and individuals:
 * **NeuSpace Devs team(Akshat singh, Aman gupta, Anurudh singh)**
 * **For icons: `https://ionic.io/ionicons/v4`**
-* **Color pallets: `https://www.canva.com/colors/color-wheel/`**
+* **Color palettes: `https://www.canva.com/colors/color-wheel/`**
 
 ## **License**
 
