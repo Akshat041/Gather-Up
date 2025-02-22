@@ -35,9 +35,9 @@ We are dedicated to making event discovery and participation easy for everyone i
 
 Want to improve the platform? Feel free to submit a pull request! 🚀
 
-**1-**Clone the repository:
+1. Clone the repository:
 - git clone `git@github.com:Akshat041/Gather-Up.git`
-**2-**Open `index.html` in your web browser
+2. Open `index.html` in your web browser
 
 ## Future Improvements
 
