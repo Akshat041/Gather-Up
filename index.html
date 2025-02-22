@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gather Up</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <h1>GatherUp</h1>
+        <button class="add-book">
+            <ion-icon name="add-circle-outline" class="add-icon"></ion-icon>Add Event
+        </button>
+    </header>
+
+    <main>
+        <div class="cards">
+            <!-- 1 -->
+            <!-- <div class="card">
+          <h1 class="title">Title</h1>
+          <p class="author">- author</p>
+          <div class="card-bottom">
+            <p class="pages">284 pages</p>
+            <div class="bottom-btns">
+              <button class="read">Read</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div>
+        </div> -->
+        </div>
+
+        <!-- dialog box -->
+        <dialog id="modal">
+            <form method="dialog" id="bookForm">
+                <div class="input">
+                    <label for="title">Event Title</label>
+                    <input type="text" id="title" placeholder="title" autofocus />
+                </div>
+                <div class="input">
+                    <label for="description">Event description</label>
+                    <input type="text" id="description" placeholder="description" />
+                </div>
+                <div class="location">
+                    <label for="location">Location</label><br>
+                    <input type="text" id="location" placeholder="location" /><br><br>
+                </div>
+                <div class="input">
+                    <label for="isInterested">Are you interested?</label>
+                    <select name="isInterested" id="isInterested">
+                        <option value="true">Yes</option>
+                        <option value="false">No</option>
+                    </select>
+                </div>
+                <div class="buttons">
+                    <button class="close">Close</button>
+                    <button class="confirm" formmethod="dialog" type="submit">
+                        Confirm
+                    </button>
+                </div>
+            </form>
+        </dialog>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
